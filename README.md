@@ -14,6 +14,14 @@ flowchart LR
   C -- alert to channel --> D[Slack channel]
 ```
 
+## How to
+
+After forking this repository, replace the files below with your own
+with the information that suits you, and confirm that Github Action is running.
+
+- conf.py
+- pull-request-reminder.yml
+
 ## Configuration
 - conf.py
   - ```python
@@ -42,4 +50,3 @@ flowchart LR
 - ```shell
   ./job/pull_request_reminder/pull_request_reminder.py --slack-notification on
   ```
- 
